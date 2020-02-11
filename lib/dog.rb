@@ -1,8 +1,11 @@
 class Dog 
 end
 
-def 
-  .name= Fido 
+def bark
+  puts "woof!"
 end
-def 
-  .name= 
+def name
+  puts "fido"
+end
+fido.name
+fido.bark
