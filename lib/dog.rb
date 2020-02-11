@@ -8,5 +8,5 @@ def name =(dog_name)
   @this_dogs_name = dog_name
 end
 
-fido.name
-fido.bark
+dog_name.name
+dog_name.bark
