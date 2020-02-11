@@ -1,13 +1,17 @@
-class Dog 
-end
+class Dog
+  def name=(dogs_name)
+    @name = dogs_name
+  end 
 
-def bark
-  puts "woof!"
-  end
-def name=(dog_name)
-  @this_dogs_name = dog_name
-  end
-end
+  def name
+    @name
+  end 
+  
+end 
 
-dog_name.name
-dog_name.bark
+class Dog
+  def bark
+    puts "woof!"
+  end 
+  
+end 
